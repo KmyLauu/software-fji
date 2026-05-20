@@ -173,3 +173,10 @@ except Exception as error:
     print(error)
 
     registrar_log(str(error))
+ print("""
+╔════════════════════════════════╗
+║   PROCESO FINALIZADO CON ÉXITO ║
+╚════════════════════════════════╝
+
+🌸 Gracias por utilizar Software FJI 🌸
+""")
