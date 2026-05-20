@@ -26,9 +26,18 @@ class Reserva:
     def mostrar_reserva(self):
 
         return f"""
-========== RESERVA ==========
-Cliente: {self.cliente.obtener_nombre()}
-Servicio: {self.servicio.descripcion()}
-Estado: {self.estado}
-=============================
+╔════════════════════════════╗
+        RESERVA GENERADA
+╠════════════════════════════╣
+
+👤 Cliente:
+{self.cliente.obtener_nombre()}
+
+🛠️ Servicio:
+{self.servicio.descripcion()}
+
+📌 Estado:
+{self.estado}
+
+╚════════════════════════════╝
 """
