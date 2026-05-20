@@ -5,7 +5,14 @@ from excepciones import *
 from logs import registrar_log
 
 
-print("\n===== SISTEMA SOFTWARE FJ =====\n")
+print("""
+╔══════════════════════════════════════╗
+║        SOFTWARE FJI SYSTEM           ║
+║  Gestión de Clientes y Reservas     ║
+╚══════════════════════════════════════╝
+
+ Bienvenido al sistema empresarial 
+""")
 
 
 # OPERACIÓN 1
