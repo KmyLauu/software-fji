@@ -30,13 +30,13 @@ class Reserva:
         RESERVA GENERADA
 ╠════════════════════════════╣
 
-👤 Cliente:
+ Cliente:
 {self.cliente.obtener_nombre()}
 
-🛠️ Servicio:
+ Servicio:
 {self.servicio.descripcion()}
 
-📌 Estado:
+ Estado:
 {self.estado}
 
 ╚════════════════════════════╝
