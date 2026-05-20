@@ -31,12 +31,14 @@ try:
     print(reserva1.mostrar_reserva())
 
     print(f"Costo total: {costo}")
+ print("\n ¡Gracias por reservar con Software FJ!")
+print(">.< Tu reserva fue procesada correctamente\n")
 
     registrar_log("Reserva realizada correctamente")
 
 except Exception as error:
 
-    print(error)
+print(f"\nX ERROR DETECTADO: {error}\n")
 
     registrar_log(str(error))
 
